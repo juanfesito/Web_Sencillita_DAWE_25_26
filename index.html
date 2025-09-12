@@ -1,119 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Guarrerias</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" type="image/png" href="images/logo.png">
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Guarrerias</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" type="image/png" href="images/logo.png">
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <div class="wrapper">
-         <!-- end loader -->
-         <div class="sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
-               <div id="dismiss">
-                  <i class="fa fa-arrow-left"></i>
-               </div>
-               <ul class="list-unstyled components">
-                  <li class="active">
-                     <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                     <a href="#about">About</a>
-                  </li>
-                  <li>
-                     <a href="#game">Game</a>
-                  </li>
-                  <li>
-                     <a href="#customer">Our customer</a>
-                  </li>
-                  <li>
-                     <a href="#contact">Conatct</a>
-                  </li>
-               </ul>
-            </nav>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="d-flex flex-row bg-info"> 
+            <div class="w-25">
+               <a href="index.html"><img src="images/logo.png" alt="#" class="w-25"></a>
+            </div>
+               <h1 class="text-light m-auto"> Guarrerias</h1>
          </div>
-         <div id="content">
-            <!-- header -->
-            <header>
-               <!-- header inner -->
-               <div class="head_top">
-                  <div class="header">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-md-3 logo_section">
-                              <div class="full">
-                                 <div class="center-desk">
-                                    <div class="logo">
-                                       <a href="index.html"><img src="images/logo.png" alt="#" class="w-25"></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-9">
-                              <div class="right_header_info">
-                                 <ul>
-                                    <li class="menu_iconb">
-                                       <a href="Javascript:void(0)">Login</a>
-                                    </li>
-                                    <li>
-                                       <button type="button" id="sidebarCollapse">
-                                       <img src="images/menu_icon.png" alt="" />
-                                       </button>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
+      </header>
+      <div class="sidebar">
+         <!-- Sidebar  -->
+         <nav id="sidebar">
+            <div class="d-flex flex-row bg-dark justify-content-around">
+               <a href="index.html">Home</a>
+               <a href="#about">About</a>
+               <a href="#game">Game</a>
+               <a href="#customer">Our customer</a>
+               <a href="#contact">Conatct</a>
+            </div>
+         </nav>
+      </div>
+      <div id="content">
+         <!-- end header inner -->
+         <!-- end header -->
+         <section class="slider_section">
+            <div class="banner_main">
+               <img src="images/woman_desgusting.png" alt="#woman" />
+               <div class="container-fluid padding3">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="text-bg">
+                           <a href="Javascript:void(0)">Descubre las peores comidas</a>
                         </div>
                      </div>
                   </div>
                </div>
-            </header>
-            <!-- end header inner -->
-            <!-- end header -->
-            <section class="slider_section">
-               <div class="banner_main">
-                  <img src="images/woman_desgusting.png" alt="#woman"/>
-                  <div class="container-fluid padding3">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="text-bg">
-                              <a href="Javascript:void(0)">Descubre las peores comidas</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+            </div>
+         </section>
          <!-- Categories -->
          <!-- casino -->
          <div id="game" class="casino">
@@ -129,7 +88,7 @@
                <div class="row">
                   <div class="col-md-4 padding_bottom">
                      <div class="game_box">
-                        <figure><img src="images/game1.jpg" alt="#"/></figure>
+                        <figure><img src="images/game1.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 1</h3>
@@ -137,7 +96,7 @@
                   </div>
                   <div class="col-md-4 padding_bottom">
                      <div class="game_box">
-                        <figure><img src="images/game2.jpg" alt="#"/></figure>
+                        <figure><img src="images/game2.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 2</h3>
@@ -145,7 +104,7 @@
                   </div>
                   <div class="col-md-4 padding_bottom">
                      <div class="game_box">
-                        <figure><img src="images/game3.jpg" alt="#"/></figure>
+                        <figure><img src="images/game3.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 3</h3>
@@ -153,7 +112,7 @@
                   </div>
                   <div class="col-md-4 margin_bottom1">
                      <div class="game_box">
-                        <figure><img src="images/game4.jpg" alt="#"/></figure>
+                        <figure><img src="images/game4.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 4</h3>
@@ -161,7 +120,7 @@
                   </div>
                   <div class="col-md-4 margin_bottom1">
                      <div class="game_box">
-                        <figure><img src="images/game5.jpg" alt="#"/></figure>
+                        <figure><img src="images/game5.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 5</h3>
@@ -169,7 +128,7 @@
                   </div>
                   <div class="col-md-4">
                      <div class="game_box">
-                        <figure><img src="images/game6.jpg" alt="#"/></figure>
+                        <figure><img src="images/game6.jpg" alt="#" /></figure>
                      </div>
                      <div class="game">
                         <h3>Game 6</h3>
@@ -203,19 +162,21 @@
                               <div class="container">
                                  <div class="carousel-caption ">
                                     <div class="row d_flex">
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
                                                 <h4>Promotins</h4>
                                              </div>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority have suffered alteration in some form, by injected humour, or
+                                                randomised words which don't look even slightly believable.</p>
                                              <a class="read_more" href="Javascript:void(0)">Play Online</a>
                                           </div>
                                        </div>
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
-                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                                <figure><img src="images/jons_img1.png" alt="#" /></figure>
                                              </div>
                                           </div>
                                        </div>
@@ -227,19 +188,21 @@
                               <div class="container">
                                  <div class="carousel-caption">
                                     <div class="row d_flex">
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
                                                 <h4>Promotins</h4>
                                              </div>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority have suffered alteration in some form, by injected humour, or
+                                                randomised words which don't look even slightly believable.</p>
                                              <a class="read_more" href="Javascript:void(0)">Play Online</a>
                                           </div>
                                        </div>
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
-                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                                <figure><img src="images/jons_img1.png" alt="#" /></figure>
                                              </div>
                                           </div>
                                        </div>
@@ -251,19 +214,21 @@
                               <div class="container">
                                  <div class="carousel-caption">
                                     <div class="row d_flex">
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
                                                 <h4>Promotins</h4>
                                              </div>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority have suffered alteration in some form, by injected humour, or
+                                                randomised words which don't look even slightly believable.</p>
                                              <a class="read_more" href="Javascript:void(0)">Play Online</a>
                                           </div>
                                        </div>
-                                       <div  class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="test_box">
                                              <div class="jons">
-                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                                <figure><img src="images/jons_img1.png" alt="#" /></figure>
                                              </div>
                                           </div>
                                        </div>
@@ -273,13 +238,17 @@
                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#licens" role="button" data-slide="prev">
-                        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                           <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
                         </a>
                         <a class="carousel-control-next" href="#licens" role="button" data-slide="next">
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                           <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                         </a>
                      </div>
-                     <p class="lorem">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                     <p class="lorem">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour, or randomised words which don't look
+                        even slightly believable.There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or randomised words which
+                        don't look even slightly believable.</p>
                   </div>
                   <div id="about" class="col-md-12">
                      <ul class="spinit">
@@ -292,13 +261,17 @@
                         <div class="row d_flex">
                            <div class="col-md-4">
                               <div class="many_box_img">
-                                 <figure><img src="images/imag.jpg" alt="#"/></figure>
+                                 <figure><img src="images/imag.jpg" alt="#" /></figure>
                               </div>
                            </div>
                            <div class="col-md-8">
                               <div class="many_box">
-                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variati<br>
-                                    ons of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable.There are many variati<br>
+                                    ons of passages of Lorem Ipsum available, but the majority have suffered alteration
+                                    in some form, by injected humour, or randomised words which don't look even slightly
+                                    believable.
                                  </p>
                               </div>
                            </div>
@@ -310,7 +283,7 @@
          </div>
          <!-- end lLicens -->
          <!-- customer -->
-         <div id="customer"  class="customer">
+         <div id="customer" class="customer">
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
@@ -323,9 +296,13 @@
                <div class="row">
                   <div class="col-md-10 offset-md-1">
                      <div class="customer_text">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                           suffered alteration in some form, by injected humour, or randomised words which don't look
+                           even slightly believable.There are many variations of passages of Lorem Ipsum available, but
+                           the majority have suffered alteration in some form, by injected humour, or randomised words
+                           which don't look even slightly believable.</p>
                         <div class="customer_box">
-                           <i><img src="images/customer.png" alt="#"/></i>
+                           <i><img src="images/customer.png" alt="#" /></i>
                            <h4>Mark jo</h4>
                            <span>jected humour</span>
                         </div>
@@ -430,43 +407,43 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-       <script src="js/custom.js"></script>
+      <script src="js/custom.js"></script>
       <script type="text/javascript">
-         $(document).ready(function() {
-             $("#sidebar").mCustomScrollbar({
-                 theme: "minimal"
-             });
-         
-             $('#dismiss, .overlay').on('click', function() {
-                 $('#sidebar').removeClass('active');
-                 $('.overlay').removeClass('active');
-             });
-         
-             $('#sidebarCollapse').on('click', function() {
-                 $('#sidebar').addClass('active');
-                 $('.overlay').addClass('active');
-                 $('.collapse.in').toggleClass('in');
-                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-             });
+         $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+               $('#sidebar').removeClass('active');
+               $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+               $('#sidebar').addClass('active');
+               $('.overlay').addClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
          });
       </script>
       <script>
-         $(document).ready(function() {
-             $(".fancybox").fancybox({
-                 openEffect: "none",
-                 closeEffect: "none"
-             });
-         
-             $(".zoom").hover(function() {
-         
-                 $(this).addClass('transition');
-             }, function() {
-         
-                 $(this).removeClass('transition');
-             });
+         $(document).ready(function () {
+            $(".fancybox").fancybox({
+               openEffect: "none",
+               closeEffect: "none"
+            });
+
+            $(".zoom").hover(function () {
+
+               $(this).addClass('transition');
+            }, function () {
+
+               $(this).removeClass('transition');
+            });
          });
       </script>
-     
-   </body>
-</html>
 
+</body>
+
+</html>
